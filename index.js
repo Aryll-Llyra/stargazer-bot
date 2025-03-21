@@ -34,11 +34,10 @@ const config = {
     'raid1': { days: ['Monday', 'Tuesday', 'Thursday'], time: '20:00', name: 'Weekly Static Run' }
   },
   fflogs: {
-      fflogs: {
     clientId: process.env.FFLOGS_CLIENT_ID,
     clientSecret: process.env.FFLOGS_CLIENT_SECRET,
-    region: 'na', // Options: na, eu, jp, cn, kr, tw
-    updateInterval: 30 // minutes
+    region: 'na',
+    updateInterval: 30
   }
 };
 
