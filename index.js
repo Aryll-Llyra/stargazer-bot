@@ -10,6 +10,9 @@ const ytSearch = require('yt-search');
 const axios = require('axios');
 
 console.log("Token length:", process.env.TOKEN ? process.env.TOKEN.length : "undefined");
+console.log("Environment variables:", Object.keys(process.env));
+console.log("Using token from environment:", !!process.env.TOKEN);
+console.log("Using token from config:", !!config.token);
 
 // Config
 const config = {
