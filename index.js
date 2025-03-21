@@ -9,6 +9,8 @@ const ytdl = require('ytdl-core');
 const ytSearch = require('yt-search');
 const axios = require('axios');
 
+console.log("Token length:", process.env.TOKEN ? process.env.TOKEN.length : "undefined");
+
 // Config
 const config = {
   token: process.env.TOKEN,
