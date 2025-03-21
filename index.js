@@ -1746,5 +1746,5 @@ process.on('unhandledRejection', error => {
 });
 
 // Login
-console.log("Token available:", process.env.TOKEN ? "Yes" : "No");
-client.login(process.env.TOKEN);
+console.log("Token available:", process.env.DISCORD_TOKEN ? "Yes" : "No");
+client.login(process.env.DISCORD_TOKEN);
